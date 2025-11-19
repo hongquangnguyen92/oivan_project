@@ -1,0 +1,6 @@
+services:
+  web:
+    # ...
+    environment:
+      # This tells docker-compose to read the key from the host file system
+      RAILS_MASTER_KEY: ${RAILS_MASTER_KEY}
