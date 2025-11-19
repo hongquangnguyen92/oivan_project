@@ -397,6 +397,7 @@ DEPENDENCIES
   jbuilder
   kamal
   propshaft
+  psych
   puma (>= 5.0)
   rails (~> 8.1.1)
   rest-client
